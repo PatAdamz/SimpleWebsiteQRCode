@@ -6,8 +6,6 @@ import os
 def get_output_location():
     directory = input("Input folder path for QR Code output: ")
     fileName = input("Input a filename for QR Code: ").split(".")[0]
-    
-
     return os.path.join(directory,fileName)
     
 if __name__ == "__main__":
